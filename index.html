@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title> Anthony </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="assets/js/scrolling.js"></script>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-inverse" id="navbar">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Anthony Alridge <img id="logo" src="assets/imgs/mylogo.png"></a>
+
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#technologies">TECHNOLOGIES</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<div id="something">
+<div class="container-fluid bg-1 text-center" id="about">
+  <h3 class="title"> About me </h3>
+  <img class="img-responsive img-circle" style="display:inline" src="assets/imgs/laptop.jpeg"  alt="laptop">
+  <h5> I'm a Computing student at Imperial College London. I enjoy web development
+   and have experimented with a range of technologies. I'm eager to continue
+   learning both frontend and backend development.</h5>
+</div>
+
+<div class="container-fluid bg-2 text-center" id="technologies">
+  <h3 class="title"> Technologies </h3>
+  <div class="row">
+    <div class="col-sm-4 bg-5">
+      <p class="title">Languages</p>
+      <p> Haskell <br>
+          Java    <br>
+          Javascript <br>
+          Python </p>
+    </div>
+    <div class="col-sm-4 bg-6">
+    <p class="title">  Web Technologies </p>
+    <p> Django <br>
+        jQuery <br>
+        bootstrap <br>
+        node.js <br>
+        angular.js
+    </p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-3 text-center" id="portfolio">
+  <h3 class="title"> Portfolio </h3>
+  <p> Here are some projects I've worked on and deployed. More can be found
+      on my github, linked below.
+  </p>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Arcade</p>
+      <img src="assets/imgs/portfolio/jimbobsArcade.PNG" alt="Image">
+      <p> A simple website I made with a couple of javascript games. It's pretty
+        ugly but was fun to do and taught me about model querying in Django.
+        Making the games helped improve my javascript too, and even managed to
+        entertain me for a couple of minutes!
+      </p>
+    </div>
+    <div class="col-sm-4">
+      <p >Infodump</p>
+      <img src="assets/imgs/portfolio/infodump.jpeg" alt="Image">
+      <p> A more complex website which I regularly use to store information
+        about my modules and research topics. Technologies involved were:
+        HTML, CSS, Javascript, Python, Django. This taught me a lot of web
+        development concepts, particularly in Django and involved authentication,
+        databases and session management.
+      </p>
+    </div>
+  </div>
+</div>
+</div>
+<footer class="container-fluid bg-4 text-center">
+  <p>View my Github: <a href="http://github.com/Anthony-Alridge">Github</a></p>
+</footer>
+</body>
+
+</html>

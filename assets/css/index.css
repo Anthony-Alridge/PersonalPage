@@ -1,0 +1,62 @@
+#logo {
+  width:40px;
+  height: 40px;
+  display: inline;
+  margin-bottom: 2%;
+}
+img {
+width: 200px;
+height: 200px;
+
+
+}
+
+#navbar {
+  padding: 1%;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+.title {
+  text-decoration: underline;
+}
+.bg-1 {
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+}
+
+.bg-2 {
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+}
+
+.bg-3 {
+    background-color: #ffffff; /* White */
+    color: #555555;
+}
+
+.bg-4 {
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+
+.bg-5 {
+  background-color: #1abc9c;
+  width: 50%;
+  border-radius: 50%;
+
+}
+
+.bg-6{
+  background-color: #2f2f2f;
+  width: 50%;
+  border-radius: 50%;
+
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
